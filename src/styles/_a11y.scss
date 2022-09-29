@@ -1,0 +1,20 @@
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important; // sass-lint:disable-line no-important
+    animation-duration: 1ms !important; // sass-lint:disable-line no-important
+    animation-iteration-count: 1 !important; // sass-lint:disable-line no-important
+    background-attachment: initial !important; // sass-lint:disable-line no-important
+    scroll-behavior: auto !important; // sass-lint:disable-line no-important
+    transition-duration: 0s !important; // sass-lint:disable-line no-important
+    transition-delay: 0s !important; // sass-lint:disable-line no-important
+  }
+}
+
+.screenreader {
+  position: absolute !important; // sass-lint:disable-line no-important
+  width: 0.1px !important; // sass-lint:disable-line no-important
+  height: 0.1px !important; // sass-lint:disable-line no-important
+  overflow: hidden !important; // sass-lint:disable-line no-important
+}

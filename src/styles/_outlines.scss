@@ -1,0 +1,7 @@
+$component-outline: 2px solid var(--active);
+$component-outline-offset: 2px;
+
+%base-outline {
+  outline: $component-outline;
+  outline-offset: $component-outline-offset;
+}

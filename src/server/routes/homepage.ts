@@ -1,7 +1,10 @@
 function homepage(_req, res) {
+  const now = new Date().getTime();
+
   res.render('homepage', {
     title: 'Hello World!',
-    responseTime: res.locals.responseTime || "NA",
+    responseTime: now - res.locals.responseStartTime,
+    dateRendered: now
   });
 }
 

@@ -12,7 +12,7 @@
   "scripts": {
     "generateCertificates": "node scripts/generateCertificates.js",
     "dev": "ENVIRONMENT=development nodemon",
-    "build:static": "sass --load-path . --style compressed --no-error-css --no-source-map --stop-on-error --quiet src/styles/:public/assets/css/",
+    "build:static": "sass --load-path . --style compressed --no-error-css --no-source-map --stop-on-error --quiet src/styles/:src/public/assets/css/",
     "build:server": "tsc --project tsconfig.server.json",
     "build": "yarn build:static && yarn build:server",
     "start": "node dist/server/index.js",

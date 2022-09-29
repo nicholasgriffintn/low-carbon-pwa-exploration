@@ -1,0 +1,33 @@
+$gel-type-enable--markup-output: true;
+
+@import 'node_modules/gel-typography/typography';
+
+$light: 300;
+$normal: 400;
+$medium: 500;
+$bold: 700;
+$extra-bold: 800;
+
+.gel-minion.capitalize {
+  text-transform: capitalize;
+}
+
+.gel-minion * {
+  @include gel-typography('minion');
+}
+
+.gel-brevier * {
+  @include gel-typography('brevier');
+}
+
+.gel-great-primer * {
+  @include gel-typography('great-primer');
+}
+
+.gel-pica * {
+  @include gel-typography('pica');
+}
+
+.gel-paragon * {
+  @include gel-typography('paragon');
+}

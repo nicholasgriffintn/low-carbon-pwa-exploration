@@ -27,14 +27,18 @@ const expressApp = (app) => {
 
   app.get(`/error`, error);
 
+  app.get(`/`, homepage);
+
   // Serve static files.
   app.use(
     '/',
-    express.static(path.join(__dirname, '../public'), { redirect: false })
+    express.static(path.join(__dirname, '../../public'), { redirect: false })
   );
 
   // Catch All
-  app.get('*', homepage);
+  app.get('*', (_req, res) => {
+    return res.status(404).send({error: "Not Found"})
+  });
 
   app.use(errorHandler);
 

@@ -1,0 +1,136 @@
+// Core Colour Palette (V2)
+
+$white: #fff;
+$black: #000;
+
+$grey-1: #fefefe;
+$grey-2: #f6f6f6;
+$grey-3: #e6e8ea;
+$grey-4: #b0b2b4;
+$grey-5: #8a8c8e;
+$grey-6: #545658;
+$grey-7: #3a3c3e;
+$grey-8: #202224;
+$grey-9: #141618;
+$grey-10: #141414;
+
+$active-core: #0078ff;
+$active-light: #3092ff;
+$active-dark: #0064e6;
+
+$success-core: #24b300;
+$success-light: #49cc29;
+$success-dark: #148a00;
+
+$alert-core: #ffb32b;
+$alert-light: #ffce2b;
+$alert-dark: #c8871e;
+
+$error-core: #f51a5a;
+$error-light: #ff4060;
+$error-dark: #e4134f;
+
+$live-core: #00a5a5;
+$live-light: #00bfba;
+$live-dark: #017474;
+
+$link-hover-color: #0064e6;
+
+// Light
+
+$light-background: $white;
+$light-background-primary: $grey-10;
+$light-background-secondary: $grey-7;
+$light-background-tertiary: $grey-6;
+$light-background-border: $grey-5;
+$light-background-accent: $white;
+
+$light-midground: $grey-2;
+$light-midground-primary: $grey-10;
+$light-midground-secondary: $grey-7;
+$light-midground-tertiary: $grey-6;
+$light-midground-border: $grey-5;
+$light-midground-accent: $white;
+
+$light-states-block-hover: $grey-3;
+$light-states-block-on-hover: $grey-10;
+
+$light-states-block-active: $grey-5;
+$light-states-block-on-active: $white;
+
+$light-states-block-visited: $grey-6;
+$light-states-block-on-visited: $white;
+
+$light-states-block-success: $success-core;
+$light-states-block-on-success: $white;
+
+$light-states-block-alert: $alert-core;
+$light-states-block-on-alert: $black;
+
+$light-states-block-error: $error-core;
+$light-states-block-on-error: $white;
+
+// Dark
+
+$dark-background: $black;
+$dark-background-primary: $grey-2;
+$dark-background-secondary: $grey-4;
+$dark-background-tertiary: $grey-5;
+$dark-background-border: $grey-5;
+$dark-background-accent: $grey-8;
+
+$dark-midground: $grey-10;
+$dark-midground-primary: $grey-2;
+$dark-midground-secondary: $grey-4;
+$dark-midground-tertiary: $grey-5;
+$dark-midground-border: $grey-5;
+$dark-midground-accent: $grey-8;
+
+$dark-states-block-hover: $grey-7;
+$dark-states-block-on-hover: $grey-2;
+
+$dark-states-block-active: $grey-5;
+$dark-states-block-on-active: $white;
+
+$dark-states-block-visited: $grey-6;
+$dark-states-block-on-visited: $white;
+
+$dark-states-block-success: $success-core;
+$dark-states-block-on-success: $white;
+
+$dark-states-block-alert: $alert-core;
+$dark-states-block-on-alert: $black;
+
+$dark-states-block-error: $error-core;
+$dark-states-block-on-error: $white;
+
+// Service Palette
+
+$inactive-core: #8d8d8d;
+$inactive-light: #aaa;
+$inactive-dark: #6f6f6f;
+
+$iplayer-core: #ff4c98;
+$iplayer-light: #fe59aa;
+$iplayer-dark: #dc2878;
+
+$sounds-core: #fa6400;
+$sounds-light: #ff7b22;
+$sounds-dark: #d24712;
+
+$news-core: #b80000;
+$news-light: #ff453a;
+$news-dark: #eb0000;
+
+$sport-core: #ffd230;
+$sport-light: #ffd53c;
+$sport-dark: #387b12;
+$sport-dark-alt: #ffba00;
+
+$weather-core: #067eb3;
+$weather-light: #4abef6;
+$weather-dark: #149edc;
+
+$bitesize-core: #963ce1;
+$bitesize-light: #a555ff;
+$bitesize-dark: #8214e1;
