@@ -37,12 +37,14 @@ ssl
   .then((options) => {
     routes(app);
 
-    console.log(options)
+    console.log(options);
 
     spdy
       .createServer(options, app)
       .listen(useSSL ? sslPort : httpPort, hostname, () => {
-        console.log(`App server started on ${hostname}:${useSSL ? sslPort : httpPort}`);
+        console.log(
+          `App server started on ${hostname}:${useSSL ? sslPort : httpPort}`
+        );
       });
   })
   .catch((err) => {

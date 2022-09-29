@@ -1,8 +1,5 @@
 function corsMiddleware(req, res, next) {
-  const allowedOrigins = [
-    "0.0.0.0",
-    "localhost"
-  ];
+  const allowedOrigins = ['0.0.0.0', 'localhost'];
   const { origin } = req.headers;
 
   if (origin && allowedOrigins.includes(origin)) {

@@ -50,7 +50,9 @@ function errorHandler(err, req, res, next) {
 
   hideErrorDetails(err);
 
-  res.redirect(`/error?status_code=${statusCode}&error_description=${err.message || ""}`);
+  res.redirect(
+    `/error?status_code=${statusCode}&error_description=${err.message || ''}`
+  );
 }
 
 export default errorHandler;

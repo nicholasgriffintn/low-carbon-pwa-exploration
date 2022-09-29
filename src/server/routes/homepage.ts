@@ -4,7 +4,7 @@ function homepage(_req, res) {
   res.render('homepage', {
     title: 'Hello World!',
     responseTime: now - res.locals.responseStartTime,
-    dateRendered: now
+    dateRendered: now,
   });
 }
 

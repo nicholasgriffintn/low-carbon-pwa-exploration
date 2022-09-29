@@ -37,7 +37,7 @@ const expressApp = (app) => {
 
   // Catch All
   app.get('*', (_req, res) => {
-    return res.status(404).send({error: "Not Found"})
+    return res.status(404).send({ error: 'Not Found' });
   });
 
   app.use(errorHandler);

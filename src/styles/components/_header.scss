@@ -7,72 +7,80 @@
 }
 
 .orbit-ux-v5 .orb-nav-search {
-    float: right;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 4rem;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4rem;
 }
 @media screen and (min-width: 1280px) {
-.orbit-ux-v5 .orb-nav-search a.orbit-search__button {
+  .orbit-ux-v5 .orb-nav-search a.orbit-search__button {
     white-space: nowrap;
     padding: 0.75rem;
     width: 12.5rem;
-}
+  }
 }
 @media screen and (min-width: 600px) {
-.orbit-ux-v5 .orb-nav-search a.orbit-search__button {
+  .orbit-ux-v5 .orb-nav-search a.orbit-search__button {
     background-position: center 13px;
-}
+  }
 }
 @media screen and (min-width: 375px) {
-.orbit-ux-v5 .orb-nav-search .orb-search__button, .orbit-ux-v5 .orb-nav-search .orbit-search__button {
+  .orbit-ux-v5 .orb-nav-search .orb-search__button,
+  .orbit-ux-v5 .orb-nav-search .orbit-search__button {
     width: 3rem;
+  }
 }
-}
-.orbit-ux-v5 .orb-nav-search .orb-search__button, .orbit-ux-v5 .orb-nav-search .orbit-search__button {
-    cursor: pointer;
-    border: none;
-    overflow: hidden;
-    font-size: 13px;
-    font-weight: 700;
-    text-decoration: none;
-    width: 2.5rem;
+.orbit-ux-v5 .orb-nav-search .orb-search__button,
+.orbit-ux-v5 .orb-nav-search .orbit-search__button {
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  width: 2.5rem;
 }
 @media screen and (min-width: 1280px) {
-.orbit-ux-v5 .orbit-search__button {
+  .orbit-ux-v5 .orbit-search__button {
     background: #f6f6f6;
+  }
 }
-}
-.orbit-header-account a#idcta-link, .orbit-header-links a, .orbit-header-more, .orbit-header-notifications, .orbit-header-right a, .orbit-more-drawer li a, .orbit-more-drawer-close {
-    color: #000;
+.orbit-header-account a#idcta-link,
+.orbit-header-links a,
+.orbit-header-more,
+.orbit-header-notifications,
+.orbit-header-right a,
+.orbit-more-drawer li a,
+.orbit-more-drawer-close {
+  color: #000;
 }
 
 .orbit-ux-v5 .orb-nav-search .ux-v5 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .orbit-ux-v5 .orb-nav-search .orbit-search-button-icon-only {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1280px) {
-.orbit-ux-v5 .orb-nav-search .orbit-search-button-icon-only {
+  .orbit-ux-v5 .orb-nav-search .orbit-search-button-icon-only {
     display: none;
-}
+  }
 }
 
 .orbit-ux-v5 .orb-nav-search .orbit-search-button-icon-with-text {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 1280px) {
-.orbit-ux-v5 .orb-nav-search .orbit-search-button-icon-with-text {
+  .orbit-ux-v5 .orb-nav-search .orbit-search-button-icon-with-text {
     display: inline-block;
     margin-right: 0.5rem;
-}
+  }
 }
 
 .orbit-header-right svg {
@@ -80,7 +88,5 @@
 }
 
 svg:not(:root) {
-    overflow: hidden;
+  overflow: hidden;
 }
-
-
