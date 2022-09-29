@@ -5,9 +5,11 @@ import compression from 'compression';
 // MIddleware
 import accessLog from '../middleware/accessLog';
 import cors from '../middleware/cors';
+import responseTime from '../middleware/responseTime';
 import errorHandler from '../middleware/errorHandler';
 
 // Page Routes
+import homepage from './homepage';
 import status from './status';
 import error from './error';
 
@@ -16,8 +18,9 @@ import error from './error';
 const expressApp = (app) => {
   // Global Middleware
   app.use(accessLog());
-  app.use(compression());
+  app.use(responseTime);
   app.use(cors);
+  app.use(compression());
 
   // routes
   app.get('/status', status);
@@ -31,7 +34,7 @@ const expressApp = (app) => {
   );
 
   // Catch All
-  app.get('*', error);
+  app.get('*', homepage);
 
   app.use(errorHandler);
 

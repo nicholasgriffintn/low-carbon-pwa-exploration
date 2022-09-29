@@ -7,7 +7,7 @@ morgan.token('hostname', () => {
 });
 
 morgan.token('pid', () => {
-  return process.pid.toString();
+  return process.pid ? process.pid.toString() : '';
 });
 
 function jsonFormat(tokens, req, res) {

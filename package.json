@@ -38,15 +38,16 @@
     "gel-typography": "4.1.0",
     "morgan": "1.10.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "spdy": "4.0.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@types/jest": "29.0.3",
+    "@types/morgan": "1.9.3",
     "@types/node": "18.7.13",
     "@types/react": "18.0.20",
-    "@types/morgan": "1.9.3",
     "@typescript-eslint/eslint-plugin": "5.38.0",
     "@typescript-eslint/parser": "5.38.0",
     "eslint": "8.23.1",
@@ -66,15 +67,15 @@
     "jest-environment-jsdom": "29.0.3",
     "jest-junit": "14.0.1",
     "jest-standard-reporter": "2.0.0",
-    "prettier": "2.7.1",
     "jsdom": "20.0.0",
+    "nodemon": "2.0.20",
     "pem": "1.14.6",
+    "prettier": "2.7.1",
     "sass": "1.54.9",
     "sass-lint": "1.13.1",
     "sass-mq": "6.0.0",
     "sinon": "14.0.0",
     "ts-node": "10.9.1",
-    "typescript": "4.8.3",
-    "nodemon": "2.0.20"
+    "typescript": "4.8.3"
   }
 }
